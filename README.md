@@ -68,7 +68,7 @@ npm run dev
 
 ### Open in Browser
 
-Visit [Live]([http://localhost:3000](https://interactive-quadrant-chart.vercel.app/) to view the app.
+Visit [https://interactive-quadrant-chart.vercel.app/](https://interactive-quadrant-chart.vercel.app/) to view the app.
 
 ## 📁 Folder Structure
 
