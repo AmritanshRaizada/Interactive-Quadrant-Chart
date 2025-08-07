@@ -20,7 +20,7 @@ interface CustomizedLabelProps {
 const CustomizedLabel = ({ x, y, value }: CustomizedLabelProps) => {
   if (x === undefined || y === undefined) return null;
   return (
-    <text x={x} y={y} dy={-10} fill="#FFFFFF" fontSize={12} fontWeight="bold" textAnchor="middle">
+    <text x={x} y={y} dy={-10} fill="#000000" fontSize={12} fontWeight="bold" textAnchor="middle">
       {value}
     </text>
   );
