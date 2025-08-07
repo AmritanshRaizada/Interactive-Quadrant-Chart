@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-## Getting Started
+# 🧭 Interactive Quadrant Chart
 
-First, run the development server:
+An interactive, responsive quadrant bubble chart built with **Next.js**, **Recharts**, **Tailwind CSS**, and **TypeScript**.
+
+Users can dynamically select X and Y axes to explore data with intuitive visuals and tooltips.
+
+## ✨ Features
+
+- **🎛️ Dynamic Axis Selection**
+Easily switch between different data fields for X and Y axes via dropdowns.
+- **📊 Interactive Bubble Chart**
+Displays labeled, animated bubbles positioned based on selected axis values.
+- **🎨 Modern UI \& Styling**
+Bright orange bubbles
+Clean axes with arrowheads
+Card-style layout and minimal grid
+- **🧠 Tooltips on Hover**
+See detailed data for each point instantly when you hover over a bubble.
+- **📱 Fully Responsive**
+Optimized for all screen sizes — from desktop to mobile.
+
+
+## 🚀 Tech Stack
+
+| Tech | Description |
+| :-- | :-- |
+| [Next.js](https://nextjs.org/) | React framework for SSR and static sites |
+| [React](https://reactjs.org/) | UI library for building components |
+| [Recharts](https://recharts.org/) | Composable charting library |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| [TypeScript](https://www.typescriptlang.org/) | Typed JavaScript superset |
+
+## 🛠️ Getting Started
+
+### 📦 Prerequisites
+
+- **Node.js** v18 or newer
+- **Package manager:** npm, yarn, or pnpm
+
+
+### 📥 Installation
+
+**Clone the Repository**
+
+```bash
+git clone https://github.com/AmritanshRaizada/Interactive-Quadrant-Chart.git
+cd Interactive-Quadrant-Chart
+```
+
+**Install Dependencies**
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+```
+
+**Run the Dev Server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Open in Browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-## Learn More
+## 📁 Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+.
+├── app/              # Next.js app directory
+│   ├── layout.tsx    # App layout
+│   └── page.tsx      # Main page with chart
+├── components/       # Reusable UI components
+├── data/             # Sample dataset (if any)
+├── styles/           # Tailwind/custom styles
+├── types/            # TypeScript types/interfaces
+└── utils/            # Chart utilities/helpers
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧪 Demo Screenshots
 
-## Deploy on Vercel
+You can upload your screenshots under a `/public/screenshots` folder and embed here later.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License]().
+
